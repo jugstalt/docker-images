@@ -17,4 +17,4 @@ is not included in older version of the library!
 Solution:
 One possible solution is to use an image based on Ubuntu (mcr.microsoft.com/dotnet/aspnet:3.1-focal). A current version of *libgidplus* appears to be loaded here.
 
-Debian Based Images (mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim) installs an older version of the library where this problem still exists. In this case, when creating the image, the current version of the library must be cloned from GitHub and then compiled with the image. With this image the Alpha channel is also used in the 'DrawImage(...) ' interpreted correctly.
+Debian Based Images (mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim) installs an older version of the library where this problem still exists. In this case, when creating the image, the current version of the library must be cloned from GitHub and then compiled with the image. With this image the Alpha channel is also used in the `DrawImage(...)` interpreted correctly.

@@ -1,11 +1,11 @@
 FROM mcr.microsoft.com/dotnet/aspnet:3.1-focal
 
-# install libgdiplus
+# install libgdiplus  (gdiplus.dll)
 RUN apt-get update
 RUN apt-get install -y libgdiplus lsof
 #RUN apt-get install -y libc6-dev
 
-# install proj4
+# install proj4 (proj.dll)
 RUN apt-get install -y proj-bin
 
 # install gdal

@@ -16,5 +16,6 @@ Ein mögliche Lösing ist es, ein auf Ubuntu basierendes Image zu verwenden (mcr
 
 Bei Debian basieren Images (mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim) wird eine ältere Version der Bibliothek installiert, bei der dieses Problem noch besteht. Hier muss beim Erstellen des Images die aktuelle Version von GitHub geklont in compiliert werden. Mit diesem Image wird auch der Alpha Kanal beim `DrawImage(...)` richtig interpretiert.
 
-
+Hinweis:
+Da sich ein Schwerpunkt meiner Arbeit um geographische Informationssystem dreht, wird ein den Images auch oft Proj4 oder GDAL installiert. Diese Installationen können weggelassen werden, wenn nur eine aktuelle *libgdiplus* Version verwendet werden sollte. 
 

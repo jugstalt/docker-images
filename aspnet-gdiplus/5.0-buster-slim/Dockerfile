@@ -11,6 +11,7 @@ RUN ./autogen.sh
 RUN make 
 RUN make check
 RUN make install
+RUN ln -s /usr/local/lib/libgdiplus.so /usr/lib/libgdiplus.so
 RUN ln -s /usr/local/lib/libgdiplus.so.0.0.0 /usr/lib/gdiplus.dll
 
 # proj4 (proj.dll)

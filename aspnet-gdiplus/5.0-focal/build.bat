@@ -1,3 +1,3 @@
-docker build -t aspnet-gdiplus:5.0-focal .
+docker build -t aspnetcore-plus:5.0-focal-gdi .
 
 pause

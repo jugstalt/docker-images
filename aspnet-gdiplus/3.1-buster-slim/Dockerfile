@@ -10,7 +10,7 @@ RUN make
 RUN make check
 RUN make install
 
-FROM mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim AS finadockerl 
+FROM mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim AS final 
 
 # install libgdiplus  (gdiplus.dll)
 RUN apt-get update

@@ -1,1 +1,2 @@
 build-all.bat
+publish-to-docker-hub.bat

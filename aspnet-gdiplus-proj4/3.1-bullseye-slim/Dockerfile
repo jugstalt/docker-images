@@ -30,4 +30,4 @@ RUN ln -s /usr/lib/libgdiplus.so.0.0.0 /usr/lib/gdiplus.dll
 # proj4 (proj.dll)
 RUN apt-get update
 RUN apt-get install -y proj-bin
-RUN ln -s /usr/lib/x86_64-linux-gnu/libproj.so.13 /usr/lib/proj.dll
+RUN ln -s /usr/lib/x86_64-linux-gnu/libproj.so.19 /usr/lib/proj.dll
